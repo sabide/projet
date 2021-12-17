@@ -4,6 +4,9 @@ import time
 
 
 
+
+
+
 def lu_fact(A):
   n,m = np.shape(A) # verfier si n==m
   U = np.copy(A) # je copie A dans upper
